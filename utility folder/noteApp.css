@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  background-image: linear-gradient(90deg, white, white);
+}
+/*For parent-div*/
+.parent-div {
+  display: inline-flex;
+  margin-top: 30px;
+  margin-left: 5rem;
+  margin-bottom: -2rem;
+}
+/*For h1*/
+h1 {
+  position: relative;
+  top: 4rem;
+}
+/* for image */
+#note1 {
+  width: 112px;
+  margin-bottom: 4rem;
+}
+.btn-div {
+  margin-bottom: 10px;
+  margin-left: 58px;
+}
+/* for button*/
+.btn-div #btn {
+  width: 150px;
+  height: 2rem;
+  border-radius: 4rem;
+  outline: none;
+  background-color: purple;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+/*for edit pen icon*/
+#pen {
+  object-fit: contain;
+  width: 19px;
+  margin-right: 5px;
+  position: relative;
+  top: 5px;
+}
+/*for textbox */
+#div .textbox {
+  background-color: black;
+  width: 350px;
+  height: 10rem;
+  /*margin-left: 60px;*/
+  margin-bottom: 5rem;
+  border-radius: 3px;
+  color:gainsboro;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.textbox {
+  position: relative;
+}
+#delete-icon {
+  width: 30px;
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+  margin: 1rem;
+  cursor: pointer;
+  background-color: red;
+}
+@media (min-width: 320px) {
+   #div .textbox{
+    display: flex;
+    flex-direction:column;
+    margin-left: 1.10rem;
+    background-color:#f361fb;
+    color: black;
+    font-size:large;
+    font-family:"Poppins", sans-serif;
+    font-weight: bold;
+    
+   }
+   #delete-icon{
+    background-color: black;
+   }
+   .textbox{
+    padding-left: 10px;
+    padding-top: 15px;
+   }
+   #note1{
+    margin-left: -4rem;
+    position: relative;
+    top: 1rem;
+   }
+}
